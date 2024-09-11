@@ -1,0 +1,68 @@
+body{
+  background-color: blue;
+}
+header {
+  color: #F5F5F5;
+}
+article{
+  color:#F5F5F5;
+}
+nav {
+
+background-color: white;
+
+overflow: hidden;
+
+}
+
+nav a {
+
+float: left;
+
+color: black;
+
+text-align: center;
+
+padding: 14px 16px;
+
+text-decoration: none;
+
+font-size: 17px;
+
+}
+
+nav a:hover {
+
+background-color: #6D7B8D;   
+
+color: white;
+
+}
+
+nav a.center {
+
+position: relative;
+
+left: 50%;
+
+transform: translateX(-50%);
+
+}
+nav {
+  display: flex; /* Mengubah nav menjadi flex container */
+  justify-content: center; /* Menempatkan elemen anak di tengah secara horizontal */
+  background-color: #E0E5E5;
+  overflow: hidden;
+}
+
+div{
+  color: #F5F5F5;
+}
+
+nav a {
+  /* Gaya lainnya seperti sebelumnya */
+  flex: 1; /* Membuat semua link memiliki lebar yang sama */
+}
+footer {
+  color:#F5F5F5;
+}
